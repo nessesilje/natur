@@ -1,0 +1,80 @@
+html{
+    margin:0;
+}
+body {
+    max-width: 1140px;
+    background-color: lightgray;
+    color: black;
+	margin: auto;
+}
+
+a:hover{
+    color: lightgray;
+}  
+
+nav {
+    background-color: steelblue;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+nav a{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #202020;
+}
+nav .heim{
+    font-weight: 800;
+    font-size: 25px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    padding-top: 10px;
+    
+}
+img {
+    width: 100%;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	color: #202020;
+}
+
+.grid-element1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.grid-element2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid-element3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.grid-element4{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+.grid-element5{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+footer{
+	background-color: darkgray;
+}

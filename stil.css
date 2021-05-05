@@ -1,0 +1,72 @@
+html{
+    margin:0;
+}
+body {
+    max-width: 1140px;
+    background-color: lightgray;
+    color: black;
+	margin: auto;
+}
+
+a:hover{
+    color: lightgray;
+}  
+
+nav {
+    background-color: steelblue;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+	padding: 10px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+nav a{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #202020;
+}
+nav .heim{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    padding-top: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.text-border{
+	border: 2px solid darkgray;
+	border-style: dashed;
+}
+#bilete{
+    background-image: url(media/pano.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+	height: 350px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#bilete > h1{
+    text-align: center;
+    color: #DCDCDC;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 27px;
+    
+}
+footer{
+	background-color: darkgray;
+}
