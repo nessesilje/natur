@@ -27,12 +27,13 @@ nav a{
     padding-left: 30px;
     padding-right: 30px;
     color: #202020;
+	text-decoration: none;
+	font-size: 18px;
 }
 nav .heim{
     font-weight: 800;
     font-size: 25px;
 }
-
 
 main {
     display: grid;
@@ -40,12 +41,11 @@ main {
     grid-column-gap: 20px;
     grid-row-gap: 15px;
     padding-top: 10px;
+	margin: 10px;
 }
-
-img {
+main > article > img {
     width: 100%;
 }
-
 .text-border{
 	border: 2px solid darkgray;
 	border-style: dashed;
