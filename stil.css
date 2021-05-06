@@ -41,7 +41,7 @@ main {
     grid-column-gap: 20px;
     grid-row-gap: 15px;
     padding-top: 10px;
-	margin: 10px;
+	margin: 15px;
 }
 main > article > img {
     width: 100%;
