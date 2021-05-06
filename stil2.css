@@ -14,13 +14,12 @@ a:hover{
 
 nav {
     background-color: steelblue;
-    display:grid;
+	display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     margin-bottom: 10px;
     text-align: center;
 	padding: 15px;
-	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
